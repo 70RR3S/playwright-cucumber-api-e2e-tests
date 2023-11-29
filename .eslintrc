@@ -1,0 +1,23 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+    "@typescript-eslint"
+    ],
+    "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb",
+    "airbnb-typescript"
+    ],
+    "parserOptions": {
+    "project": "./tsconfig.json"
+    },
+    "rules": {  
+        "@typescript-eslint/no-explicit-any": ["error", {  "fixToUnknown": true}],
+        "curly": "error",
+        "no-empty": "error" ,
+        "linebreak-style": 0
+    }
+}
