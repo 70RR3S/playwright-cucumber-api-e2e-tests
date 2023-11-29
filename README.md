@@ -101,4 +101,4 @@ When running any of the tests, e2e or api, 2 scripts are run by default:
 "posttest": "npx ts-node report/report.ts", generates the reports after running the test
 ```
 
-![Generated report](test-results/reports/index.html)
+![Generated report](sampleReport.png)
