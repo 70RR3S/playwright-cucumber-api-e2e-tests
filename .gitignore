@@ -1,4 +1,9 @@
 package-lock.json
 node_modules
 #env/.env.test
-test-results
+test-results/screenshots
+test-results/videos
+test-results/cucumber-report.html
+test-results/cucumber-report.json
+test-results/reports/assets
+test-results/reports/features
