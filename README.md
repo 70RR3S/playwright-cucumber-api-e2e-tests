@@ -93,3 +93,12 @@ If I want I can pass --TAGS="@testTags" from the terminal or to any of the scrip
 
 The project uses [multiple-cucumber-html-reporter] to generate HTML reports after running the tests.
 Reports are generated in the directory 'test-results'
+
+When running any of the tests, e2e or api, 2 scripts are run by default:
+
+```json
+"pretest": "npx ts-node report/init.ts", removes previous results before the test is run
+"posttest": "npx ts-node report/report.ts", generates the reports after running the test
+```
+
+![Generated report](test-results/reports/index.html)
